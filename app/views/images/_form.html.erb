@@ -1,0 +1,5 @@
+<%= simple_form_for @image do |f| %>
+    <%= f.input :title, placeholder: "Name", label: "titre" %>
+    <%= f.input :photo2, as: :attachinary %>
+    <%= f.button :submit, "ADD", class: "btn btn-primary btn-lg btn-block btn-color" %>
+<% end %>

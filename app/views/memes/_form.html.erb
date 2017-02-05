@@ -1,0 +1,7 @@
+<%= simple_form_for @meme do |f| %>
+    <%= f.input :title, placeholder: "Titre", label: "Titre" %>
+    <%= f.input :toptext, placeholder: "top text", label: "Top text" %>
+    <%= f.input :bottomtext, placeholder: "bottom text", label: "Bottom text" %>
+    <%= f.input :image_id %>
+    <%= f.button :submit, "ADD", class: "btn btn-primary btn-lg btn-block btn-color" %>
+<% end %>
